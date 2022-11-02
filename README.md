@@ -26,14 +26,7 @@ From FiveM the command `/maze` is provided with optional arguments: `X Y hash la
 import Maze from './maze';
 
 // see above for variable meanings
-const maze = new EntityMaze(X, Y);
-maze.renderEntities(
-    hash,
-    x,
-    y,
-    z,
-    layers,
-);
+const maze = new Maze(X, Y);
 
 ```
 
