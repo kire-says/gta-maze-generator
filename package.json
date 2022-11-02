@@ -1,0 +1,33 @@
+{
+  "name": "gta-maze-generator",
+  "version": "1.0.2",
+  "description": "Generates random mazes with random GTA entities",
+  "main": "index.js",
+  "repository": "https://github.com/erik-sn/gta-maze-generator",
+  "author": "erik-sn",
+  "scripts": {
+    "build": "webpack --mode production",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
+    "watch": "webpack --mode development --watch"
+  },
+  "license": "MIT",
+  "private": false,
+  "dependencies": {},
+  "devDependencies": {
+    "@citizenfx/client": "^2.0.5046-1",
+    "@citizenfx/server": "^2.0.5046-1",
+    "@types/node": "^16.11.11",
+    "@typescript-eslint/eslint-plugin": "^5.5.0",
+    "@typescript-eslint/parser": "^5.5.0",
+    "eslint": "^8.3.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-webpack-plugin": "^3.1.1",
+    "prettier": "^2.5.0",
+    "remove-files-webpack-plugin": "^1.4.5",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.5.2",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1"
+  }
+}
